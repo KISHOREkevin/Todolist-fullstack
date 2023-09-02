@@ -1,0 +1,28 @@
+
+.home-title{
+    color: #F79BD3;
+    margin-top: 20px;
+    padding: 3px 10px;
+    text-align: center;
+}
+.home-content{
+    width: 45%;
+    margin-top: 55px;
+    display: inline-block;
+    color: #F79BD3;
+    font-size: 25px;
+    line-height: 3rem;
+}
+.home-image{
+    width: 50%;
+    float: right;
+    margin-top: -100px;
+} 
+@media (width<800px) {
+    .home-content,.home-image{
+        width: 90%;
+    }
+    .home-image{
+        margin-top: 50px;
+    }
+}
