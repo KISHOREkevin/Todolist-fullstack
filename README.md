@@ -20,3 +20,16 @@
 
 * After loading the api then go to project link
     * https://tranquil-donut-e3037d.netlify.app/
+
+# Project Usage (offline)
+* clone the repository `git clone https://github.com/KISHOREkevin/Todolist-fullstack.git`
+* inside server folder and client folder create `.env` file
+* in `server folder` ,enter the following code in the `.env` file :
+     * `MONGO_URL="Your-mongodb-url`
+     * `PORT=Your-port-number`
+     * `SALTING_ROUNDS=10`
+* then inside server folder , run `node index.js`
+* then inside client folder, run `npm start`
+* then enter the url in the browser, `http://localhost:3000`
+
+
