@@ -28,8 +28,8 @@
      * `MONGO_URL="Your-mongodb-url`
      * `PORT=Your-port-number`
      * `SALTING_ROUNDS=10`
-* then inside server folder , run `node index.js`
-* then inside client folder, run `npm start`
+* then inside server folder , run `npm install && node index.js`
+* then inside client folder, run `npm install && npm start`
 * then enter the url in the browser, `http://localhost:3000`
 
 
